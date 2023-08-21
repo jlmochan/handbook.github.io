@@ -30,6 +30,16 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
+	background-position: fixed;
+	
+}
+
+.bg{
+	position:fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
 .sidebar{
 	position:fixed;
@@ -49,7 +59,7 @@ html, body {
 
 	
 	transition: background-color .2s ease, color .2s ease;
-	border: 6px solid green;
+													/*border: 6px solid green;*/
 }
 
 body {
@@ -76,7 +86,7 @@ body {
 	align-items: center;
 	position: fixed;
 	z-index: 20;
-	border: 2px solid red;
+																/*border: 2px solid red;*/
 			
 }
 
@@ -108,6 +118,12 @@ body {
 	text-decoration: none;
 	font-weight: 500;
 	
+}
+
+.centerHeader {
+	text-align: center;
+	line-height:20px; 
+	margin-bottom:10px;
 }
 
 
@@ -317,7 +333,7 @@ margin-right: 220px;
 							display: grid;
 	Background-color: none;
 	z-index: 1;
-	border: 2px solid purple;
+														/*border: 2px solid purple;*/
 
 }
 
@@ -331,11 +347,11 @@ margin-right: 220px;
 	color: Black;
 	Background-color: none;
 	margin-left: 100px;
-	border: 2px solid purple;
+														/*border: 2px solid purple;*/
 }
 .content p{
 	margin-bottom: 16px;
-	border: 2px solid purple;
+																/*border: 2px solid purple;*/
 	
 }
 
@@ -362,7 +378,7 @@ footer{
 #content1{
 	/*background-color: #6fffd2;*/
 	grid-area: content1;
-	border: 8px solid black;
+																	/*border: 8px solid black;*/
 	background-color: rgba(0,0,0,.5);
 	padding: 30px;
 	font-size: 40px;
@@ -408,10 +424,11 @@ footer{
 	/*opacity: .8;*/
 					position: absolute;
 	margin-top: 125px;
+	max-width: 1250px;
 					width: 100%-400px;
 	margin-left: 325px;
 	margin-right: 25px;
-	border: 8px solid yellow;
+																	/*border: 8px solid yellow;*/
 	
 }
 
@@ -420,7 +437,7 @@ footer{
      margin-bottom:20px;
 	 margin-left: 20px;
 	
-	border: 2px solid blue;
+																			/*border: 2px solid blue;*/
         }
 .text-content li{
 	/*display: list-item;*/
@@ -429,14 +446,14 @@ footer{
 
 .text-content ul{
 	margin-left: 1rem;
-							border: 2px solid purple;
+																		/*border: 2px solid purple;*/
 							padding: 5px;
 	
 }
 
 .text-content ol{
 	margin-left: 1rem;
-		border: 2px solid pink;
+																	/*border: 2px solid pink;*/
 	padding: 5px;
 }
 .text-content a{
@@ -478,6 +495,7 @@ footer{
   top: 30px;
   left: 0;
   background-color:coral;
+	background-image: radial-gradient(whitesmoke, coral);
   /*background-color: rgba(0,0,0, 0.5);*/
   overflow-x: hidden;
   transition: 0.5s;
@@ -504,7 +522,7 @@ footer{
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: black;
 }
 
 .overlay .closebtn {
