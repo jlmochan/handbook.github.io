@@ -117,6 +117,6 @@ function openNav8() {
   window.scrollTo(0,0);
 }
 
-unction gototop() {
+function gototop() {
   window.scrollTo(0,0);
 }
