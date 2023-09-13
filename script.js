@@ -49,6 +49,7 @@ function openNav() {
 	
 	function closeNav() {
   document.getElementById("myNav").style.width = "0%";
+  window.scrollTo(0,0);
 }
 	
 function openNav2() {
@@ -57,22 +58,27 @@ function openNav2() {
 	
 	function closeNav2() {
   document.getElementById("myNav2").style.width = "0%";
+  window.scrollTo(0,0);
 }
 	
 function openNav3() {
 	document.getElementById("myNav3").style.width ="25%";
+  
 }
 	
 	function closeNav3() {
   document.getElementById("myNav3").style.width = "0%";
+  window.scrollTo(0,0);
 }
 	
 	function openNav4() {
 	document.getElementById("myNav4").style.width ="25%";
+ 
 }
 	
 	function closeNav4() {
   document.getElementById("myNav4").style.width = "0%";
+  window.scrollTo(0,0);
 }
 
 	function openNav5() {
@@ -81,6 +87,7 @@ function openNav3() {
 	
 	function closeNav5() {
   document.getElementById("myNav5").style.width = "0%";
+  window.scrollTo(0,0);
 }
 	
 	function openNav6() {
@@ -89,6 +96,7 @@ function openNav3() {
 	
 	function closeNav6() {
   document.getElementById("myNav6").style.width = "0%";
+  window.scrollTo(0,0);
 }
 	
 	function openNav7() {
@@ -97,4 +105,15 @@ function openNav3() {
 	
 	function closeNav7() {
   document.getElementById("myNav7").style.width = "0%";
+  window.scrollTo(0,0);
 }
+
+function openNav8() {
+	document.getElementById("myNav8").style.width ="25%";
+}
+	
+	function closeNav8() {
+  document.getElementById("myNav8").style.width = "0%";
+  window.scrollTo(0,0);
+}
+
